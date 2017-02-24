@@ -1,4 +1,4 @@
-FROM coldrye/debian-tini:0-9-0-testing-latest
+FROM coldrye/debian-tini:0-14-0-testing-latest
 
 RUN set -ex \
     && export APT_LISTCHANGES_FRONTEND=none \
